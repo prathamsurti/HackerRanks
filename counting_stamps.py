@@ -16,6 +16,10 @@ USA
 India
 Canada
 
+
+Data Structure : 
+{'India' , 'USA' , 'Canada'} 
+
 Output:
 3
 '''
