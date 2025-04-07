@@ -1,3 +1,21 @@
+'''
+Problem Statement:
+-------------------
+You are given:
+- An array `arr` of `n` integers.
+- A set `A` containing `m` integers representing items that increase happiness.
+- A set `B` containing `m` integers representing items that decrease happiness.
+
+Each element in the array contributes:
++1 to happiness if it exists in set A  
+-1 to happiness if it exists in set B
+
+Your task is to:
+1. Calculate the total happiness score.
+2. Ensure data validation: throw an error if the number of inputs for `arr`, `A`, or `B` are incorrect.
+'''
+
+
 
 n , m = map(int,input().split())
  
