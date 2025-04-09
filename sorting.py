@@ -40,3 +40,8 @@ def counting(s):
 
 for i in counting(s): 
     print(i[0] , i[1])
+
+
+s= Counter([1,2,3,4])
+
+print([i for i  in s.items()])
