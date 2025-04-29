@@ -21,7 +21,3 @@ graph TD
     N -- No --> S[Designer continues work];
     B -- No --> S;
     S --> A; %% Loop back or end work session
-
-%% Styling nodes for clarity (optional)
-classDef systemProcess fill:#f9f,stroke:#333,stroke-width:2px;
-class G,H,I,P systemProcess;
